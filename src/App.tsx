@@ -1,5 +1,7 @@
+import EventPage from './pages/EventPage'
+
 function App() {
-  return <></>
+  return <EventPage />
 }
 
 export default App
