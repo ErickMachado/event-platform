@@ -7,7 +7,7 @@ type FooterProps = {
 function Footer({ className }: FooterProps) {
   return (
     <footer
-      className={'pt-6 border-t border-gray-500 flex items-center justify-between '.concat(
+      className={'p-6 border-t border-gray-500 flex items-center justify-between '.concat(
         className ?? ''
       )}
     >

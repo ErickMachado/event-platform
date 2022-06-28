@@ -4,6 +4,11 @@ module.exports = {
   content: ['./src/**/*.tsx'],
   theme: {
     extend: {
+      backgroundImage: {
+        blur: 'url(/src/assets/blur-background.png)',
+        mockup: 'url(/src/assets/code-print.png)',
+        react: 'url(/src/assets/react-icon.svg)'
+      },
       colors: {
         green: {
           300: '#00B37E',
